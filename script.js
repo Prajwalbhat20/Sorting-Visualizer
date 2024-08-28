@@ -1,4 +1,4 @@
-const n=50;
+const n=10;
 const arr=[];
 
 
@@ -38,7 +38,7 @@ function init()
 
 function play()
 {
-    
+    init();
     const copy=[...arr]
     const swaps=bubbleSort(copy);
     animate(swaps);
