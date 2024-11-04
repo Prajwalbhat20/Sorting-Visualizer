@@ -95,7 +95,7 @@ function animate(swaps)
      setTimeout(function()
     {
         animate(swaps);
-    },200);
+    },700);
 
     
 }
